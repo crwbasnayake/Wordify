@@ -1,5 +1,7 @@
 # Wordify
-This is a React Native mobile application that allows users to play a word puzzle game. The application lets users select a category (e.g. animals, cities, food) and start a new game. The categories and words are retrieved from a web service as a JSON. Users can enter words by selecting the given letters on the screen to form the word. The letters of the word are shuffled and placed in the bottom part of the screen as boxes and the user can select letters by tapping on them. Users can earn points based on the length and complexity of the words they enter. The score can be submitted to an API using a POST request. Users can see the leaderboard of the highest scoring players, which comes from the API. Additionally, users can share their score on social media. The application is built to be performant and scalable, with a focus on maintainability and testability.
+This is a React Native mobile application that allows users to play a word puzzle game. 
+
+The application lets users select a category (e.g. animals, cities, food) and start a new game. The categories and words are retrieved from a web service as a JSON. Users can enter words by selecting the given letters on the screen to form the word. The letters of the word are shuffled and placed in the bottom part of the screen as boxes and the user can select letters by tapping on them. Users can earn points based on the length and complexity of the words they enter. The score can be submitted to an API using a POST request. Users can see the leaderboard of the highest scoring players, which comes from the API. Additionally, users can share their score on social media. The application is built to be performant and scalable, with a focus on maintainability and testability.
 
 ## Features
 - Select a category and start a new game
@@ -9,8 +11,8 @@ This is a React Native mobile application that allows users to play a word puzzl
 - View the leaderboard of the highest scoring players
 - Share score on social media
 - Technology Stack:
--- React Native
--- Jest
+  - React Native
+  - Jest
 
 ## Installation
 - Clone the repository
